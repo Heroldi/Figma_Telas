@@ -1,0 +1,97 @@
+@import '../abstract/variables';
+
+.basket-fruit-name-background {
+    background: $color-orange;
+    width: 100%;
+    height: 51vh;
+    position: relative;
+    
+    .basket-fruit-name{
+        position:absolute;
+        height: 45vh;
+        width: 42vh;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+
+        .img-fruits {
+            width: 8vh;
+            height: 6vh;
+            margin: 130px 0px 0px 305px;
+            position: absolute;
+            bottom: 35vh;
+            right: 2vh;
+        }
+
+        .img-fruits-basket-elliptic {
+            position: relative;
+            width: 40vh;
+            height: 34vh;
+            top: 10%;
+        }
+
+        .img-shadow-basket{
+            position: absolute;
+            width: 40vh;
+            height: 2vh;
+            top: 40vh;
+            right: 1vh;       
+        }   
+    }
+}
+
+.form-name-box {
+    background: $color-white;
+    width: 100%;
+    height: 50vh;
+    font-family:  $font;
+    position: relative;
+
+    .form-name {
+        position:absolute;
+        height: 40vh;
+        width: 45vh;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+
+        #label-name {
+            color: $color-dark-purple;  
+            width: 35vh;
+            left: 2vh;
+            top: 5vh;
+            font-size: 1.2em;
+            position: absolute;
+        }
+        #name {
+            border: none;
+            height: 5vh;
+            width: 40vh;
+            left: 2vh;
+            top: 11vh;
+            font-size: 1em;
+            position: absolute;
+            background: $color-light-gray;
+        }
+
+        #name::placeholder{
+            color: $color-gray;
+        }
+
+        .buttom-start {
+            width: 40vh;
+            height: 7vh;
+            background: $color-orange;
+            left: 3vh;
+            top: 25vh;
+            font-size: 20px;
+            position: absolute;
+            color: $color-white;
+            font-family: $font;
+            border: none;
+            border-radius: 10px;
+        }
+    }
+}
+
+

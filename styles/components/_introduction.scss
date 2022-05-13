@@ -1,0 +1,98 @@
+@import '../abstract/variables';
+
+// CSS Index
+// CSS imagens de cesta de frutas
+.basket-fruit-index-background {
+    background: $color-orange;
+    width: 100%;
+    height: 50vh;
+    position: relative;
+
+    .basket-fruit-index {
+        position:absolute;
+        height: 45vh;
+        width: 42vh;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+
+        .img-fruits {
+            width: 8vh;
+            height: 6vh;
+            margin: 130px 0px 0px 305px;
+            position: absolute;
+            bottom: 35vh;
+            right: 2vh;
+        }
+
+        .img-fruits-basket {
+            position: relative;
+            width: 40vh;
+            height: 34vh;
+            top: 10%;
+        }
+
+        .img-shadow-basket{
+            position: absolute;
+            width: 40vh;
+            height: 2vh;
+            top: 40vh;
+            right: 1vh;   
+        }
+
+        
+    }
+}
+
+// CSS descrição e CSS do botão
+.description {
+    background: $color-white;
+    width: 100%;
+    height: 50vh;
+    font-family:  $font;
+    position: relative;
+
+    .text-index{     
+        position:absolute;
+        height: 45vh;
+        width: 42vh;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        
+
+        h1 {
+            color: $color-dark-purple;  
+            left: 3vh;
+            top: 11vh;
+            font-size: 1.2em;
+            position: absolute;
+        }
+
+        
+        p {
+            color: $color-purple;
+            font-size: 16px;
+            left: 3vh;
+            top: 18vh;
+            font-size: 1.1em;
+            position: absolute;
+        }
+        
+        .buttom-continue {
+            width: 38vh;
+            height: 5vh;
+            background: $color-orange;
+            left: 3vh;
+            top: 30vh;
+            font-size: 20px;
+            position: absolute;
+            color: $color-white;
+            font-family: $font;
+            border: none;
+            border-radius: 10px;
+        }  
+    }  
+ }
+    
+
