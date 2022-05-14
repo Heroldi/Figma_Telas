@@ -251,7 +251,6 @@ body {
   right: 50%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
-  border: black solid 2px;
 }
 
 .home-screen .home-screen-details-box .img-menu-home {
@@ -281,6 +280,7 @@ body {
   height: 5vh;
   top: 20vh;
   left: 5vh;
+  font-size: 0.9em;
   border: none;
 }
 
@@ -318,7 +318,106 @@ body {
   right: 50%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
-  border: black solid 2px;
+}
+
+.home-screen .home-screen-food-box-1 h1 {
+  font-family: "Lato", sans-serif;
+  font-size: 1.4em;
+  position: absolute;
+  left: 1vh;
+  bottom: 28vh;
+}
+
+.home-screen .home-screen-food-box-1 .img-heart-dish-1 {
+  position: absolute;
+  height: 3vh;
+  top: 5vh;
+  left: 14vh;
+}
+
+.home-screen .home-screen-food-box-1 .img-dish-1 {
+  position: absolute;
+  width: 12vh;
+  height: 12vh;
+  top: 7vh;
+  left: 3vh;
+}
+
+.home-screen .home-screen-food-box-1 #dish-1-text {
+  display: block;
+  position: absolute;
+  font-family: "Lato", sans-serif;
+  width: 19vh;
+  top: 21vh;
+  left: 1vh;
+  font-size: 1em;
+}
+
+.home-screen .home-screen-food-box-1 #img-addition-1 {
+  position: absolute;
+  top: 24.7vh;
+  left: 14.5vh;
+}
+
+.home-screen .home-screen-food-box-1 #img-money-simbol-1 {
+  position: absolute;
+  top: 24.9vh;
+  left: 0.7vh;
+}
+
+.home-screen .home-screen-food-box-1 #value-dish-1 {
+  position: absolute;
+  display: inline;
+  top: 24.7vh;
+  font-size: 1em;
+  left: 4vh;
+  color: #ffa451;
+}
+
+.home-screen .home-screen-food-box-1 .img-heart-dish-2 {
+  position: absolute;
+  height: 3vh;
+  top: 5vh;
+  left: 37.4vh;
+}
+
+.home-screen .home-screen-food-box-1 .img-dish-2 {
+  width: 12vh;
+  height: 12vh;
+  position: absolute;
+  top: 7vh;
+  left: 26.3vh;
+}
+
+.home-screen .home-screen-food-box-1 #dish-2-text {
+  display: block;
+  position: absolute;
+  font-family: "Lato", sans-serif;
+  width: 20vh;
+  top: 21vh;
+  left: 24.3vh;
+  font-size: 1em;
+}
+
+.home-screen .home-screen-food-box-1 #img-addition-2 {
+  position: absolute;
+  top: 24.7vh;
+  left: 38.5vh;
+}
+
+.home-screen .home-screen-food-box-1 #img-money-simbol-2 {
+  position: absolute;
+  top: 24.9vh;
+  left: 24.3vh;
+}
+
+.home-screen .home-screen-food-box-1 #value-dish-2 {
+  position: absolute;
+  display: inline;
+  top: 24.7vh;
+  font-size: 1em;
+  left: 28.5vh;
+  color: #ffa451;
 }
 
 .home-screen .home-screen-food-box-2 {

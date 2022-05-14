@@ -12,7 +12,7 @@
         left: 49%;
         right: 50%;
         transform: translate(-50%,-50%);
-        border: black solid 2px;
+        //border: black solid 2px;
 
         .img-menu-home {
             position: absolute;
@@ -41,6 +41,7 @@
             height: 5vh;
             top: 20vh;
             left: 5vh;
+            font-size: 0.9em;
             border: none;
 
             .search-input::placeholder {
@@ -68,7 +69,109 @@
         left: 49%;
         right: 50%;
         transform: translate(-50%,-50%);
-        border: black solid 2px;
+        //border: black solid 2px;
+
+        h1 {
+            font-family: $font;
+            font-size: 1.4em;
+            position: absolute;
+            left: 1vh;
+            bottom: 28vh;
+        }
+
+        .img-heart-dish-1 {
+            position: absolute;
+            height: 3vh;
+            top: 5vh;
+            left: 14vh;
+        }
+
+        .img-dish-1 {
+            position: absolute;
+            width: 12vh;
+            height: 12vh;
+            top: 7vh;
+            left: 3vh;
+        }
+
+        #dish-1-text{
+            display: block;
+            position: absolute;
+            font-family: $font;
+            width: 19vh;
+            top: 21vh;
+            left: 1vh;
+            font-size: 1em;
+        }
+
+        #img-addition-1 {
+            position: absolute;
+            top: 24.7vh;
+            left: 14.5vh;
+        }
+
+        #img-money-simbol-1 { 
+            position: absolute;
+            top: 24.9vh;
+            left: 0.7vh; 
+
+        }
+
+        #value-dish-1 {
+            position: absolute;
+            display: inline;
+            top: 24.7vh;
+            font-size: 1em;
+            left: 4vh;
+            color: $color-orange;
+        }
+
+        .img-heart-dish-2 {
+            position: absolute;
+            height: 3vh;
+            top: 5vh;
+            left: 37.4vh;
+        }
+
+        .img-dish-2 {
+            width: 12vh;
+            height: 12vh;
+            position: absolute;
+            top: 7vh;
+            left: 26.3vh;
+        }
+
+        #dish-2-text{
+            display: block;
+            position: absolute;
+            font-family: $font;
+            width: 20vh;
+            top: 21vh;
+            left: 24.3vh;
+            font-size: 1em;
+        }
+
+        #img-addition-2 {
+            position: absolute;
+            top: 24.7vh;
+            left: 38.5vh;
+        }
+
+        #img-money-simbol-2 { 
+            position: absolute;
+            top: 24.9vh;
+            left: 24.3vh; 
+
+        }
+
+        #value-dish-2 {
+            position: absolute;
+            display: inline;
+            top: 24.7vh;
+            font-size: 1em;
+            left: 28.5vh;
+            color: $color-orange;
+        }
 
     }
 
