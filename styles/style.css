@@ -2,6 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap%27");
 @import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap%27");
 @import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap%27");
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap%27");
 .basket-fruit-index-background {
   background: #ffa451;
   width: 100%;
@@ -234,5 +235,102 @@ body {
   bottom: 50%;
   left: 50%;
   right: 50%;
+}
+
+.home-screen {
+  background: #ffffff;
+}
+
+.home-screen .home-screen-details-box {
+  position: absolute;
+  width: 90%;
+  height: 29%;
+  top: 17%;
+  bottom: 50%;
+  left: 49%;
+  right: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  border: black solid 2px;
+}
+
+.home-screen .home-screen-details-box .img-menu-home {
+  position: absolute;
+  top: 3vh;
+  left: 1.5vh;
+}
+
+.home-screen .home-screen-details-box .img-menu-basket {
+  position: absolute;
+  top: 0.7vh;
+  left: 82%;
+}
+
+.home-screen .home-screen-details-box h1 {
+  position: absolute;
+  font-family: "Lato", sans-serif;
+  font-size: 1em;
+  width: 27vh;
+  top: 7vh;
+  left: 2vh;
+}
+
+.home-screen .home-screen-details-box .search-input {
+  position: absolute;
+  width: 35vh;
+  height: 5vh;
+  top: 20vh;
+  left: 5vh;
+  border: none;
+}
+
+.home-screen .home-screen-details-box .search-input .search-input::-webkit-input-placeholder {
+  color: #86869E;
+}
+
+.home-screen .home-screen-details-box .search-input .search-input:-ms-input-placeholder {
+  color: #86869E;
+}
+
+.home-screen .home-screen-details-box .search-input .search-input::-ms-input-placeholder {
+  color: #86869E;
+}
+
+.home-screen .home-screen-details-box .search-input .search-input::placeholder {
+  color: #86869E;
+}
+
+.home-screen .home-screen-details-box .img-filter-home {
+  position: absolute;
+  width: 2.5vh;
+  height: 1.5vh;
+  top: 21.7vh;
+  left: 87%;
+}
+
+.home-screen .home-screen-food-box-1 {
+  position: absolute;
+  width: 90%;
+  height: 29%;
+  top: 48%;
+  bottom: 50%;
+  left: 49%;
+  right: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  border: black solid 2px;
+}
+
+.home-screen .home-screen-food-box-2 {
+  position: absolute;
+  width: 90%;
+  height: 29%;
+  top: 79%;
+  bottom: 50%;
+  left: 49%;
+  right: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  border: black solid 2px;
 }
 /*# sourceMappingURL=style.css.map */

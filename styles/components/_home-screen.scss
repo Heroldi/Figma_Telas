@@ -1,0 +1,87 @@
+@import '../abstract/variables';
+
+.home-screen {
+    background: $color-white;
+
+    .home-screen-details-box {
+        position: absolute;
+        width: 90%;
+        height: 29%;     
+        top: 17%;
+        bottom: 50%;
+        left: 49%;
+        right: 50%;
+        transform: translate(-50%,-50%);
+        border: black solid 2px;
+
+        .img-menu-home {
+            position: absolute;
+            top: 3vh;
+            left: 1.5vh;
+        }
+
+        .img-menu-basket {
+            position: absolute;
+            top: 0.7vh;
+            left: 82%;
+        }
+
+        h1 {
+            position: absolute;
+            font-family: $font;
+            font-size: 1em;
+            width: 27vh;
+            top: 7vh;
+            left: 2vh;
+        }
+
+        .search-input{
+            position: absolute;
+            width: 35vh;
+            height: 5vh;
+            top: 20vh;
+            left: 5vh;
+            border: none;
+
+            .search-input::placeholder {
+                color: $color-dark-gray;
+            }
+        }
+
+        .img-filter-home {
+            position: absolute;
+            width: 2.5vh;
+            height: 1.5vh;
+            top: 21.7vh;
+            left: 87%;
+        }
+
+        
+    }
+
+    .home-screen-food-box-1 {
+        position: absolute;
+        width: 90%;
+        height: 29%;     
+        top: 48%;
+        bottom: 50%;
+        left: 49%;
+        right: 50%;
+        transform: translate(-50%,-50%);
+        border: black solid 2px;
+
+    }
+
+    .home-screen-food-box-2 {
+        position: absolute;
+        width: 90%;
+        height: 29%;     
+        top: 79%;
+        bottom: 50%;
+        left: 49%;
+        right: 50%;
+        transform: translate(-50%,-50%);
+        border: black solid 2px;
+
+    }
+}
