@@ -281,7 +281,7 @@ body {
   position: absolute;
   width: 35vh;
   height: 5vh;
-  top: 20vh;
+  top: 18vh;
   left: 5vh;
   font-size: 0.9em;
   border: none;
@@ -307,15 +307,15 @@ body {
   position: absolute;
   width: 2.5vh;
   height: 1.5vh;
-  top: 21.7vh;
+  top: 19.7vh;
   left: 87%;
 }
 
 .home-screen .home-screen-food-box-1 {
   position: absolute;
   width: 90%;
-  height: 29%;
-  top: 48%;
+  height: 25%;
+  top: 43%;
   bottom: 50%;
   left: 49%;
   right: 50%;
@@ -328,7 +328,7 @@ body {
   font-size: 1.4em;
   position: absolute;
   left: 1vh;
-  bottom: 28vh;
+  bottom: 20vh;
 }
 
 .home-screen .home-screen-food-box-1 .img-heart-dish-1 {
@@ -350,10 +350,10 @@ body {
   display: block;
   position: absolute;
   font-family: "Lato", sans-serif;
-  width: 22vh;
+  white-space: nowrap;
   top: 21vh;
   left: 1vh;
-  font-size: 1em;
+  font-size: 0.8em;
   text-decoration: none;
   color: #27214D;
   cursor: pointer;
@@ -403,10 +403,10 @@ body {
   display: block;
   position: absolute;
   font-family: "Lato", sans-serif;
-  width: 22vh;
+  white-space: nowrap;
   top: 21vh;
   left: 24.3vh;
-  font-size: 1em;
+  font-size: 0.8em;
   text-decoration: none;
   color: #27214D;
   cursor: pointer;
@@ -524,10 +524,10 @@ body {
 .home-screen .home-screen-food-box-2 #dish-3-text {
   position: absolute;
   font-family: "Lato", sans-serif;
-  width: 22vh;
+  white-space: nowrap;
   top: 28vh;
   left: 1vh;
-  font-size: 1em;
+  font-size: 0.8em;
   text-decoration: none;
   color: #27214D;
   cursor: pointer;
@@ -575,10 +575,10 @@ body {
 .home-screen .home-screen-food-box-2 #dish-4-text {
   position: absolute;
   font-family: "Lato", sans-serif;
-  width: 22vh;
+  white-space: nowrap;
   top: 28vh;
   left: 20vh;
-  font-size: 1em;
+  font-size: 0.8em;
   text-decoration: none;
   color: #27214D;
   cursor: pointer;
@@ -626,10 +626,10 @@ body {
 .home-screen .home-screen-food-box-2 #dish-5-text {
   position: absolute;
   font-family: "Lato", sans-serif;
-  width: 22vh;
+  white-space: nowrap;
   top: 28vh;
   left: 39vh;
-  font-size: 1em;
+  font-size: 0.8em;
   text-decoration: none;
   color: #27214D;
   cursor: pointer;

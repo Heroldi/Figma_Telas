@@ -40,7 +40,7 @@
             position: absolute;
             width: 35vh;
             height: 5vh;
-            top: 20vh;
+            top: 18vh;
             left: 5vh;
             font-size: 0.9em;
             border: none;
@@ -54,7 +54,7 @@
             position: absolute;
             width: 2.5vh;
             height: 1.5vh;
-            top: 21.7vh;
+            top: 19.7vh;
             left: 87%;
         }
 
@@ -64,8 +64,8 @@
     .home-screen-food-box-1 {
         position: absolute;
         width: 90%;
-        height: 29%;     
-        top: 48%;
+        height: 25%;     
+        top: 43%;
         bottom: 50%;
         left: 49%;
         right: 50%;
@@ -77,7 +77,7 @@
             font-size: 1.4em;
             position: absolute;
             left: 1vh;
-            bottom: 28vh;
+            bottom: 20vh;
         }
 
         .img-heart-dish-1 {
@@ -99,10 +99,10 @@
             display: block;
             position: absolute;
             font-family: $font;
-            width: 22vh;
+            white-space: nowrap;
             top: 21vh;
             left: 1vh;
-            font-size: 1em;
+            font-size: 0.8em;
             text-decoration: none;
             color: $color-dark-purple;
             cursor: pointer;
@@ -154,10 +154,10 @@
             display: block;
             position: absolute;
             font-family: $font;
-            width: 22vh;
+            white-space: nowrap;
             top: 21vh;
             left: 24.3vh;
-            font-size: 1em;
+            font-size: 0.8em;
             text-decoration: none;
             color: $color-dark-purple;
             cursor: pointer;
@@ -278,10 +278,10 @@
         #dish-3-text{
             position: absolute;
             font-family: $font;
-            width: 22vh;
+            white-space: nowrap;
             top: 28vh;
             left: 1vh;
-            font-size: 1em;
+            font-size: 0.8em;
             text-decoration: none;
             color: $color-dark-purple;
             cursor: pointer;
@@ -331,10 +331,10 @@
         #dish-4-text{
             position: absolute;
             font-family: $font;
-            width: 22vh;
+            white-space: nowrap;
             top: 28vh;
             left: 20vh;
-            font-size: 1em;
+            font-size: 0.8em;
             text-decoration: none;
             color: $color-dark-purple;
             cursor: pointer;
@@ -384,10 +384,10 @@
         #dish-5-text{
             position: absolute;
             font-family: $font;
-            width: 22vh;
+            white-space: nowrap;
             top: 28vh;
             left: 39vh;
-            font-size: 1em;
+            font-size: 0.8em;
             text-decoration: none;
             color: $color-dark-purple;
             cursor: pointer;
