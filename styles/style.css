@@ -347,10 +347,17 @@ body {
   display: block;
   position: absolute;
   font-family: "Lato", sans-serif;
-  width: 19vh;
+  width: 22vh;
   top: 21vh;
   left: 1vh;
   font-size: 1em;
+  text-decoration: none;
+  color: #27214D;
+  cursor: pointer;
+}
+
+.home-screen .home-screen-food-box-1 #dish-1-text:hover {
+  text-decoration: underline;
 }
 
 .home-screen .home-screen-food-box-1 #img-addition-1 {
@@ -393,10 +400,17 @@ body {
   display: block;
   position: absolute;
   font-family: "Lato", sans-serif;
-  width: 20vh;
+  width: 22vh;
   top: 21vh;
   left: 24.3vh;
   font-size: 1em;
+  text-decoration: none;
+  color: #27214D;
+  cursor: pointer;
+}
+
+.home-screen .home-screen-food-box-1 #dish-2-text:hover {
+  text-decoration: underline;
 }
 
 .home-screen .home-screen-food-box-1 #img-addition-2 {
@@ -423,13 +437,222 @@ body {
 .home-screen .home-screen-food-box-2 {
   position: absolute;
   width: 90%;
-  height: 29%;
-  top: 79%;
-  bottom: 50%;
+  height: 35%;
+  top: 80%;
+  bottom: 52%;
   left: 49%;
   right: 50%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
-  border: black solid 2px;
+}
+
+.home-screen .home-screen-food-box-2 .title-category-1 {
+  position: absolute;
+  font-weight: bold;
+  bottom: 28vh;
+  left: 0.2vh;
+  font-size: 1.5em;
+  color: #27214D;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.home-screen .home-screen-food-box-2 .title-category-1:hover {
+  text-decoration: underline;
+}
+
+.home-screen .home-screen-food-box-2 .title-category-2 {
+  position: absolute;
+  bottom: 28vh;
+  left: 14vh;
+  font-size: 1.3em;
+  color: #938db5;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.home-screen .home-screen-food-box-2 .title-category-2:hover {
+  text-decoration: underline;
+}
+
+.home-screen .home-screen-food-box-2 .title-category-3 {
+  position: absolute;
+  bottom: 28vh;
+  left: 26vh;
+  font-size: 1.3em;
+  color: #938db5;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.home-screen .home-screen-food-box-2 .title-category-3:hover {
+  text-decoration: underline;
+}
+
+.home-screen .home-screen-food-box-2 .title-category-4 {
+  position: absolute;
+  bottom: 28vh;
+  left: 44vh;
+  font-size: 1.3em;
+  color: #938db5;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.home-screen .home-screen-food-box-2 .title-category-4:hover {
+  text-decoration: underline;
+}
+
+.home-screen .home-screen-food-box-2 .img-heart-dish-3 {
+  position: absolute;
+  height: 3vh;
+  top: 13vh;
+  left: 14vh;
+}
+
+.home-screen .home-screen-food-box-2 .img-dish-3 {
+  position: absolute;
+  width: 12vh;
+  height: 12vh;
+  top: 15vh;
+  left: 3vh;
+}
+
+.home-screen .home-screen-food-box-2 #dish-3-text {
+  position: absolute;
+  font-family: "Lato", sans-serif;
+  width: 22vh;
+  top: 28vh;
+  left: 1vh;
+  font-size: 1em;
+  text-decoration: none;
+  color: #27214D;
+  cursor: pointer;
+}
+
+.home-screen .home-screen-food-box-2 #dish-3-text:hover {
+  text-decoration: underline;
+}
+
+.home-screen .home-screen-food-box-2 #img-addition-3 {
+  position: absolute;
+  top: 30.2vh;
+  left: 14.5vh;
+}
+
+.home-screen .home-screen-food-box-2 #img-money-simbol-3 {
+  position: absolute;
+  top: 31vh;
+  left: 0.7vh;
+}
+
+.home-screen .home-screen-food-box-2 #value-dish-3 {
+  position: absolute;
+  top: 31vh;
+  font-size: 1em;
+  left: 4vh;
+  color: #ffa451;
+}
+
+.home-screen .home-screen-food-box-2 .img-heart-dish-4 {
+  position: absolute;
+  height: 3vh;
+  top: 13.5vh;
+  left: 30vh;
+}
+
+.home-screen .home-screen-food-box-2 .img-dish-4 {
+  position: absolute;
+  width: 12vh;
+  height: 12vh;
+  top: 15vh;
+  left: 20vh;
+}
+
+.home-screen .home-screen-food-box-2 #dish-4-text {
+  position: absolute;
+  font-family: "Lato", sans-serif;
+  width: 22vh;
+  top: 28vh;
+  left: 20vh;
+  font-size: 1em;
+  text-decoration: none;
+  color: #27214D;
+  cursor: pointer;
+}
+
+.home-screen .home-screen-food-box-2 #dish-4-text:hover {
+  text-decoration: underline;
+}
+
+.home-screen .home-screen-food-box-2 #img-addition-4 {
+  position: absolute;
+  top: 30.2vh;
+  left: 33vh;
+}
+
+.home-screen .home-screen-food-box-2 #img-money-simbol-4 {
+  position: absolute;
+  top: 31vh;
+  left: 20vh;
+}
+
+.home-screen .home-screen-food-box-2 #value-dish-4 {
+  position: absolute;
+  top: 31vh;
+  font-size: 1em;
+  left: 23vh;
+  color: #ffa451;
+}
+
+.home-screen .home-screen-food-box-2 .img-heart-dish-5 {
+  position: absolute;
+  height: 3vh;
+  top: 13vh;
+  left: 49vh;
+}
+
+.home-screen .home-screen-food-box-2 .img-dish-5 {
+  position: absolute;
+  width: 12vh;
+  height: 12vh;
+  top: 15vh;
+  left: 38vh;
+}
+
+.home-screen .home-screen-food-box-2 #dish-5-text {
+  position: absolute;
+  font-family: "Lato", sans-serif;
+  width: 22vh;
+  top: 28vh;
+  left: 39vh;
+  font-size: 1em;
+  text-decoration: none;
+  color: #27214D;
+  cursor: pointer;
+}
+
+.home-screen .home-screen-food-box-2 #dish-5-text:hover {
+  text-decoration: underline;
+}
+
+.home-screen .home-screen-food-box-2 #img-addition-5 {
+  position: absolute;
+  top: 30.2vh;
+  left: 49vh;
+}
+
+.home-screen .home-screen-food-box-2 #img-money-simbol-5 {
+  position: absolute;
+  top: 31vh;
+  left: 39vh;
+}
+
+.home-screen .home-screen-food-box-2 #value-dish-5 {
+  position: absolute;
+  top: 30.7vh;
+  font-size: 1em;
+  left: 42.2vh;
+  color: #ffa451;
 }
 /*# sourceMappingURL=style.css.map */

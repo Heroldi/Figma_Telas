@@ -1,0 +1,16 @@
+@import '../abstract/variables';
+
+.complete-order {
+    background: $color-white;
+    .complete-order-box {
+        position: absolute;
+        width: 90%;
+        height: 80%;     
+        top: 80%;
+        bottom: 52%;
+        left: 49%;
+        right: 50%;
+        transform: translate(-50%,-50%);
+        //border: black solid 2px;
+    }
+}
