@@ -3,6 +3,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap%27");
 @import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap%27");
 @import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap%27");
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap%27");
 .basket-fruit-index-background {
   background: #ffa451;
   width: 100%;
@@ -239,6 +240,7 @@ body {
 
 .home-screen {
   background: #ffffff;
+  font-family: "Lato", sans-serif;
 }
 
 .home-screen .home-screen-details-box {
@@ -653,6 +655,75 @@ body {
   top: 30.7vh;
   font-size: 1em;
   left: 42.2vh;
+  color: #ffa451;
+}
+
+.complete-order {
+  background: #ffffff;
+}
+
+.complete-order .complete-order-box {
+  position: absolute;
+  width: 90%;
+  height: 80%;
+  top: 50%;
+  bottom: 50%;
+  left: 50%;
+  right: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.complete-order .complete-order-box .img-completo-order {
+  position: absolute;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  top: 30%;
+  left: 50%;
+}
+
+.complete-order .complete-order-box h1 {
+  position: absolute;
+  color: #27214D;
+  font-size: 1.7em;
+  top: 50%;
+  left: 15%;
+  text-align: center;
+}
+
+.complete-order .complete-order-box p {
+  position: absolute;
+  color: #27214D;
+  font-size: 1em;
+  top: 60%;
+  left: 10%;
+  width: 35vh;
+  text-align: center;
+}
+
+.complete-order .complete-order-box #track-order {
+  font-family: "Lato", sans-serif;
+  position: absolute;
+  width: 15vh;
+  height: 6vh;
+  top: 75%;
+  left: 32%;
+  border-radius: 5px;
+  background: #ffa451;
+  border: none;
+  color: #ffffff;
+}
+
+.complete-order .complete-order-box #coninue-shopping {
+  font-family: "Lato", sans-serif;
+  position: absolute;
+  width: 20vh;
+  height: 6vh;
+  top: 90%;
+  left: 27%;
+  border-radius: 5px;
+  background: #ffffff;
+  border: #ffa451 solid 1px;
   color: #ffa451;
 }
 /*# sourceMappingURL=style.css.map */
