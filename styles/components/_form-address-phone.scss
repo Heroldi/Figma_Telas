@@ -1,0 +1,90 @@
+@import '../abstract/variables';
+
+.form-address {
+    font-family: $font;
+
+    .form-address-box {
+        position: absolute;
+        width: 98%;
+        height: 50%;     
+        top: 25.5%;
+        left: 50%;
+        right: 50%;
+        transform: translate(-50%,-50%);
+        border: black solid 2px;
+
+        #address-label {
+            position: absolute;
+            top: 5%;
+            left: 2%;
+            font-size: 1.3em;
+        }
+
+        #address-input {
+            position: absolute;
+            top: 20%;
+            left: 5%;
+            width: 80%;
+            height: 10%;
+            border-color: $color-light-gray;
+            border-radius: 10px;
+            background: $color-light-gray;
+         
+        }
+
+        #address-input::placeholder {
+            color: $color-gray;
+            font-size: 1.2em;
+        }
+
+        #phone-number-label {
+            position: absolute;
+            top: 45%;
+            left: 2%;
+            font-size: 1.3em;
+        }
+
+        #phone-number-input {
+            position: absolute;
+            top: 60%;
+            left: 5%;
+            width: 80%;
+            height: 10%;
+            border-color: $color-light-gray;
+            border-radius: 8px;
+            background: $color-light-gray;
+        }
+
+        #phone-number-input::placeholder {
+            color: $color-gray;
+            font-size: 1.4em;       
+        }
+
+        .btn-delivery {
+            position: absolute;
+            width: 33%;
+            height: 13%;
+            border-radius: 7px;
+            top: 82%;
+            left: 7%;
+            border-color: $color-orange;
+            color: $color-orange;
+            background: $color-white;
+        }
+
+        .btn-card {
+            position: absolute;
+            width: 28%;
+            height: 13%;
+            border-radius: 7px;
+            top: 82%;
+            left: 65%;
+            border-color: $color-orange;
+            color: $color-orange;
+            background: $color-white;
+
+        }
+    }
+
+}
+            

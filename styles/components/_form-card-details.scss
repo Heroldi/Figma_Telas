@@ -1,0 +1,138 @@
+@import '../abstract/variables';
+
+.form-card {
+    font-family: $font;
+
+    .form-card-box {
+        position: absolute;
+        width: 98%;
+        height: 99%;     
+        top: 50%;
+        left: 50%;
+        right: 50%;
+        transform: translate(-50%,-50%);
+        //border: black solid 2px;
+
+        #card-name-label {
+            position: absolute;
+            top: 3%;
+            left: 2%;
+            font-size: 1.3em;
+        }
+
+        #card-name-input {
+            position: absolute;
+            top: 12%;
+            left: 5%;
+            width: 80%;
+            height: 10%;
+            border-color: $color-light-gray;
+            border-radius: 10px;
+            background: $color-light-gray;
+         
+        }
+
+        #card-name-input::placeholder {
+            color: $color-gray;
+            font-size: 1.2em;
+        }
+
+        #card-number-label {
+            position: absolute;
+            top: 30%;
+            left: 2%;
+            font-size: 1.3em;
+        }
+
+        #card-number-input {
+            position: absolute;
+            top: 39%;
+            left: 5%;
+            width: 80%;
+            height: 10%;
+            border-color: $color-light-gray;
+            border-radius: 8px;
+            background: $color-light-gray;
+        }
+
+        #card-number-input::placeholder {
+            color: $color-gray;
+            font-size: 1.4em;       
+        }
+
+        #card-date-label {
+            position: absolute;
+            top: 57%;
+            left: 2%;
+            font-size: 1.3em;
+        }
+
+        #card-date-input {
+            position: absolute;
+            top: 67%;
+            left: 5%;
+            width: 40%;
+            height: 10%;
+            border-color: $color-light-gray;
+            border-radius: 8px;
+            background: $color-light-gray;
+        }
+
+        #card-date-input::placeholder {
+            color: $color-gray;
+            font-size: 1.4em;       
+        }
+
+        #card-ccv-label {
+            position: absolute;
+            top: 57%;
+            left: 61%;
+            font-size: 1.3em;
+        }
+
+        #card-ccv-input {
+            position: absolute;
+            top: 67%;
+            left: 65%;
+            width: 30%;
+            height: 10%;
+            border-color: $color-light-gray;
+            border-radius: 8px;
+            background: $color-light-gray;
+        }
+
+        #card-ccv-input::placeholder {
+            color: $color-gray;
+            font-size: 1.4em;       
+        }
+
+        .btn {
+            background: $color-orange;
+            position: absolute;
+            width: 101.9%;
+            height: 18%;     
+            top: 92%;
+            left: 50%;
+            right: 50%;
+            transform: translate(-50%,-50%);
+            border-radius: 15px;
+            //border: black solid 2px;
+            }
+
+
+        .btn-complete-order {
+            position: absolute;
+            width: 45%;
+            height: 55%;
+            border-radius: 10px;
+            top: 30%;
+            left: 30%;
+            border-color: $color-orange;
+            color: $color-orange;
+            background: $color-white;
+
+        }
+    }
+
+}
+            
