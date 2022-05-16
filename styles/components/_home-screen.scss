@@ -41,7 +41,7 @@
             width: 35vh;
             height: 5vh;
             top: 18vh;
-            left: 5vh;
+            left: 3vh;
             font-size: 0.9em;
             border: none;
 
@@ -210,12 +210,8 @@
             left: 0.2vh;
             font-size: 1.5em;
             color: $color-dark-purple;
-            text-decoration: none;
             cursor: pointer;
-        }
-
-        .title-category-1:hover{
-            text-decoration: underline;
+            text-decoration: underline $color-orange 4px;
         }
 
         .title-category-2 {

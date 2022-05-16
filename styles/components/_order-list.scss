@@ -1,0 +1,190 @@
+@import '../abstract/variables';
+
+.order-list {
+    font-family: $font;
+
+    .order-list-box-1 {
+        position: absolute;
+        width: 100%;
+        height: 17%;     
+        top: 8%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        background: $color-orange;
+        //border: black solid 2px;
+
+        .my-basket {
+            position: absolute;
+            top: 42%;
+            left: 39%;
+            font-size: 1.5em;
+            color: $color-white;
+            font-weight: 500;
+        }
+    
+        .button-back-order-list {
+            position: absolute;
+            border-radius: 20px;
+            width: 13vh;
+            height: 5vh;
+            top: 40%;
+            left: 2vh;
+            border: none;
+            font-size: 1em;
+            color: $color-black;
+        }
+        
+    }
+    
+    .order-list-box-2 {
+        .img-dish-1 {
+            position: absolute;
+            top: 23vh;
+            left: 5vh;
+            width: 10%;
+            height: 6%;
+
+        }
+
+        .img-dish-2 {
+            position: absolute;
+            top: 38vh;
+            left: 5vh;
+            width: 10%;
+            height: 6%;
+            
+        }
+
+        .img-dish-3 {
+            position: absolute;
+            top: 52.7vh;
+            left: 5vh;
+            width: 10%;
+            height: 6%;
+            
+        }
+
+        .img-black-simbol-1 {
+
+            position: absolute;
+            top: 25.3%;
+            left: 75%;
+        }
+
+        .img-black-simbol-2 {
+            position: absolute;
+            top: 42vh;
+            left: 75%;
+            
+        }
+
+        .img-black-simbol-3 {
+            position: absolute;
+            top: 56vh;
+            left: 75%;
+            
+        }
+
+        .dish-1 {
+            position: absolute;
+            top: 23vh;
+            left: 15vh;
+            font-size: 0.8em;
+
+        }
+
+        .dish-2 {
+            position: absolute;
+            top: 39vh;
+            left: 15vh;
+            font-size: 0.8em;    
+        }
+
+        .dish-3 {
+            position: absolute;
+            top: 53.5vh;
+            left: 15vh;
+            font-size: 0.8em;  
+        }
+
+        .dish-description-1 {
+
+            position: absolute;
+            top: 27vh;
+            left: 15vh;
+            font-size: 0.7em;
+
+        }
+
+        .dish-description-2 {
+            position: absolute;
+            top: 43vh;
+            left: 15vh;
+            font-size: 0.7em;
+        }
+
+        .dish-description-3 {
+            position: absolute;
+            top: 57vh;
+            left: 15vh;
+            font-size: 0.7em;
+        }
+
+        .dish-value-1 {
+            position: absolute;
+            top: 25vh;
+            left: 82%;
+
+        }
+
+        .dish-value-2 {
+            position: absolute;
+            top: 42vh;
+            left: 82%;
+            
+        }
+
+        .dish-value-3 {
+            position: absolute;
+            top: 56vh;
+            left: 82%;
+            
+        }
+
+        .total-text {
+            position: absolute;
+            top: 90%;
+            left: 8%;
+            font-size: 0.9em;
+        }
+
+        .value-total {
+            position: absolute;
+            top: 93.5%;
+            left: 13%;
+            font-size: 1em;
+        }
+
+        .total-money-simbol {
+            position: absolute;
+            top: 93.5%;
+            left: 7.5%;
+            width: 4%;
+            height: 2.5%;
+        }
+
+        .btn-checkout {
+            position: absolute; 
+            top: 90%;
+            left: 40%;
+            width: 55%;
+            height: 7.5%;
+            font-size: 1.1em;
+            color: $color-white;
+            background: $color-orange;
+            border-radius: 8px;
+            border: none;
+        }
+
+    }
+}
