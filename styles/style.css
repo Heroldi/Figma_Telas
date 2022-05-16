@@ -5,6 +5,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap%27");
 @import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap%27");
 @import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap%27");
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap%27");
 .basket-fruit-index-background {
   background: #ffa451;
   width: 100%;
@@ -904,5 +905,153 @@ body {
   position: absolute;
   top: 73vh;
   left: 43vh;
+}
+
+.add-basket {
+  font-family: "Lato", sans-serif;
+}
+
+.add-basket .add-basket-box-1 {
+  position: absolute;
+  width: 100%;
+  height: 40%;
+  top: 15%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  background: #ffa451;
+}
+
+.add-basket .add-basket-box-1 .button-back-add-basket {
+  position: absolute;
+  border-radius: 20px;
+  width: 13vh;
+  height: 5vh;
+  top: 20%;
+  left: 2vh;
+  border: none;
+  font-size: 0.9em;
+  color: #000000;
+}
+
+.add-basket .add-basket-box-1 .img-arrow-add-basket {
+  position: absolute;
+  left: 3vh;
+  top: 8.8vh;
+  color: #27214D;
+}
+
+.add-basket .add-basket-box-1 .img-dish-add-basket {
+  position: absolute;
+  top: 25%;
+  left: 30%;
+}
+
+.add-basket .add-basket-box-2 {
+  position: absolute;
+  width: 98.5%;
+  height: 60%;
+  top: 65.4%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  background: #ffffff;
+  border-radius: 10px;
+}
+
+.add-basket .add-basket-box-2 .order-name {
+  position: absolute;
+  top: 5%;
+  left: 5%;
+  color: #27214D;
+  font-size: 1.5em;
+}
+
+.add-basket .add-basket-box-2 .img-minus {
+  position: absolute;
+  top: 20.3%;
+  left: 3%;
+  width: 4.5vh;
+  height: 4.5vh;
+}
+
+.add-basket .add-basket-box-2 .img-addition-add-basket {
+  position: absolute;
+  top: 20.3%;
+  left: 26%;
+  width: 4.5vh;
+  height: 4.5vh;
+}
+
+.add-basket .add-basket-box-2 .order-quantity {
+  position: absolute;
+  top: 21%;
+  left: 18%;
+  color: #27214D;
+  font-size: 1.3em;
+  font-weight: bold;
+}
+
+.add-basket .add-basket-box-2 .img-money-simbol-black {
+  position: absolute;
+  top: 22.2%;
+  left: 72%;
+}
+
+.add-basket .add-basket-box-2 .order-value {
+  position: absolute;
+  top: 20.6%;
+  left: 80%;
+  font-size: 1.3em;
+  color: #27214D;
+  font-weight: bold;
+}
+
+.add-basket .add-basket-box-2 .order-title-description {
+  position: absolute;
+  top: 38%;
+  left: 5%;
+  font-size: 1em;
+  -webkit-text-decoration: underline #ffa451 2px;
+          text-decoration: underline #ffa451 2px;
+  color: #27214D;
+}
+
+.add-basket .add-basket-box-2 .pack-content {
+  position: absolute;
+  top: 48%;
+  left: 5%;
+  font-size: 0.9em;
+  color: #27214D;
+}
+
+.add-basket .add-basket-box-2 .pack-description {
+  position: absolute;
+  top: 65%;
+  left: 5%;
+  width: 80%;
+  font-size: 0.8em;
+  color: #27214D;
+}
+
+.add-basket .add-basket-box-2 .img-heart-basket-add {
+  position: absolute;
+  top: 89.5%;
+  left: 8%;
+  width: 9%;
+  height: 8%;
+}
+
+.add-basket .add-basket-box-2 .btn-add-basket {
+  position: absolute;
+  top: 85%;
+  left: 35%;
+  width: 60%;
+  height: 15%;
+  font-size: 1.1em;
+  color: #ffffff;
+  background: #ffa451;
+  border-radius: 8px;
+  border: none;
 }
 /*# sourceMappingURL=style.css.map */

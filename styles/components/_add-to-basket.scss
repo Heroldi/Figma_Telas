@@ -1,0 +1,151 @@
+@import '../abstract/variables';
+
+.add-basket {
+    font-family: $font;
+
+    .add-basket-box-1 {
+        position: absolute;
+        width: 100%;
+        height: 40%;     
+        top: 15%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        background: $color-orange;
+        //border: black solid 2px;
+    
+        .button-back-add-basket {
+            position: absolute;
+            border-radius: 20px;
+            width: 13vh;
+            height: 5vh;
+            top: 20%;
+            left: 2vh;
+            border: none;
+            font-size: 0.9em;
+            color: $color-black;
+        }
+    
+        .img-arrow-add-basket {
+            position: absolute;
+            left: 3vh;
+            top: 8.8vh;
+            color: $color-dark-purple;
+        }
+
+        .img-dish-add-basket {
+            position: absolute;
+            top: 25%;
+            left: 30%;
+        }
+        
+    }
+
+    .add-basket-box-2 {
+        position: absolute;
+        width: 98.5%;
+        height: 60%;     
+        top: 65.4%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        background: $color-white;
+        //border: black solid 2px;
+        border-radius: 10px;
+
+        .order-name {
+            position: absolute; 
+            top: 5%;
+            left: 5%;
+            color: $color-dark-purple;
+            font-size: 1.5em;
+        }
+
+        
+        .img-minus {
+            position: absolute; 
+            top: 20.3%;
+            left: 3%;
+            width: 4.5vh;
+            height: 4.5vh;
+        }
+        .img-addition-add-basket {
+            position: absolute; 
+            top: 20.3%;
+            left: 26%;
+            width: 4.5vh;
+            height: 4.5vh;
+
+        }
+
+        .order-quantity {
+            position: absolute; 
+            top: 21%;
+            left: 18%;
+            color: $color-dark-purple;
+            font-size: 1.3em;
+            font-weight: bold;
+        }
+
+        .img-money-simbol-black {
+            position: absolute; 
+            top: 22.2%;
+            left: 72%;
+
+        }
+
+        .order-value {
+            position: absolute; 
+            top: 20.6%;
+            left: 80%;
+            font-size: 1.3em;
+            color: $color-dark-purple;
+            font-weight: bold;
+        }
+
+        .order-title-description{
+            position: absolute; 
+            top: 38%;
+            left: 5%;
+            font-size: 1em;
+            text-decoration: underline $color-orange 2px;
+            color: $color-dark-purple;
+
+        }
+        .pack-content {
+            position: absolute; 
+            top: 48%;
+            left: 5%;
+            font-size: 0.9em;
+            color: $color-dark-purple;
+        }
+
+        .pack-description {
+            position: absolute; 
+            top: 65%;
+            left: 5%;
+            width: 80%;
+            font-size: 0.8em;
+            color: $color-dark-purple;
+        } 
+
+        .img-heart-basket-add {
+            position: absolute; 
+            top: 89.5%;
+            left: 8%;
+            width: 9%;
+            height: 8%;
+        }
+
+        .btn-add-basket {
+            position: absolute; 
+            top: 85%;
+            left: 35%;
+            width: 60%;
+            height: 15%;
+            font-size: 1.1em;
+            color: $color-white;
+            background: $color-orange;
+            border-radius: 8px;
+            border: none;
+        }
+    }
+}
