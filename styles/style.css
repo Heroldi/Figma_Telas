@@ -328,7 +328,7 @@ body {
   font-size: 1.4em;
   position: absolute;
   left: 1vh;
-  bottom: 20vh;
+  bottom: 22vh;
 }
 
 .home-screen .home-screen-food-box-1 .img-heart-dish-1 {
@@ -726,5 +726,183 @@ body {
   background: #ffffff;
   border: #ffa451 solid 1px;
   color: #ffa451;
+}
+
+.tracker-order {
+  font-family: "Lato", sans-serif;
+}
+
+.tracker-order .tracker-order-box-1 {
+  position: absolute;
+  width: 100%;
+  height: 18%;
+  top: 9%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  background: #ffa451;
+}
+
+.tracker-order .tracker-order-box-1 .delivery-status {
+  position: absolute;
+  top: 50%;
+  left: 18vh;
+  font-size: 1.2em;
+  color: #ffffff;
+  font-weight: 500;
+}
+
+.tracker-order .tracker-order-box-1 .button-back {
+  position: absolute;
+  border-radius: 20px;
+  width: 13vh;
+  height: 5vh;
+  top: 47%;
+  left: 3vh;
+  border: none;
+  font-size: 0.9em;
+  color: #000000;
+}
+
+.tracker-order .tracker-order-box-1 .img-arrow {
+  position: absolute;
+  left: 4vh;
+  top: 9.5vh;
+  color: #27214D;
+}
+
+.tracker-order .tracker-order-box-2 {
+  position: absolute;
+  width: 98%;
+  height: 80.9%;
+  top: 59%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  background: #ffffff;
+}
+
+.tracker-order .tracker-order-box-2 .order-taken {
+  position: absolute;
+  font-size: 0.9em;
+  left: 13vh;
+  top: 6vh;
+}
+
+.tracker-order .tracker-order-box-2 .img-right-tracker-1 {
+  position: absolute;
+  top: 5.3vh;
+  left: 45vh;
+  width: 4vh;
+  height: 4vh;
+}
+
+.tracker-order .tracker-order-box-2 .img-paper-pencil {
+  position: absolute;
+  top: 4.1vh;
+  left: 2vh;
+}
+
+.tracker-order .tracker-order-box-2 .img-line-1 {
+  position: absolute;
+  left: 5.5vh;
+  top: 12vh;
+}
+
+.tracker-order .tracker-order-box-2 .img-clipboard {
+  position: absolute;
+  left: 1.7vh;
+  top: 20vh;
+}
+
+.tracker-order .tracker-order-box-2 .img-right-tracker-2 {
+  position: absolute;
+  top: 21.9vh;
+  left: 45vh;
+  width: 4vh;
+  height: 4vh;
+}
+
+.tracker-order .tracker-order-box-2 .Order-is-being-1 {
+  position: absolute;
+  font-size: 0.9em;
+  left: 13vh;
+  top: 22vh;
+}
+
+.tracker-order .tracker-order-box-2 .img-line-2 {
+  position: absolute;
+  left: 5.5vh;
+  top: 29vh;
+}
+
+.tracker-order .tracker-order-box-2 .img-bike {
+  position: absolute;
+  top: 35vh;
+  left: 2.5vh;
+}
+
+.tracker-order .tracker-order-box-2 .img-phone {
+  position: absolute;
+  top: 36vh;
+  left: 44.7vh;
+  width: 5vh;
+  height: 5vh;
+}
+
+.tracker-order .tracker-order-box-2 .Order-is-being-2 {
+  position: absolute;
+  font-size: 0.9em;
+  left: 13vh;
+  top: 37vh;
+}
+
+.tracker-order .tracker-order-box-2 .text-tracker-order {
+  position: absolute;
+  top: 40vh;
+  left: 13.3vh;
+  font-size: 0.7em;
+}
+
+.tracker-order .tracker-order-box-2 .img-line-3 {
+  position: absolute;
+  left: 5.5vh;
+  top: 45vh;
+}
+
+.tracker-order .tracker-order-box-2 .img-map {
+  position: absolute;
+  border-radius: 2px;
+  top: 50vh;
+  left: 3vh;
+  height: 15vh;
+  width: 45vh;
+}
+
+.tracker-order .tracker-order-box-2 .img-line-3 {
+  position: absolute;
+  left: 5.5vh;
+  top: 65vh;
+}
+
+.tracker-order .tracker-order-box-2 .img-right-tracker-3 {
+  position: absolute;
+  top: 71vh;
+  left: 3.5vh;
+  width: 4vh;
+  height: 4vh;
+}
+
+.tracker-order .tracker-order-box-2 .order-recived {
+  position: absolute;
+  top: 72vh;
+  font-size: 0.9em;
+  left: 13vh;
+}
+
+.tracker-order .tracker-order-box-2 .img-three-point {
+  position: absolute;
+  top: 73vh;
+  left: 43vh;
 }
 /*# sourceMappingURL=style.css.map */

@@ -1,1 +1,189 @@
 @import '../abstract/variables';
+
+.tracker-order {
+    font-family: $font;
+
+    .tracker-order-box-1 {
+        position: absolute;
+        width: 100%;
+        height: 18%;     
+        top: 9%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        background: $color-orange;
+        //border: black solid 2px;
+
+        .delivery-status {
+            position: absolute;
+            top: 50%;
+            left: 18vh;
+            font-size: 1.2em;
+            color: $color-white;
+            font-weight:500;
+    
+        }
+    
+        .button-back {
+            position: absolute;
+            border-radius: 20px;
+            width: 13vh;
+            height: 5vh;
+            top: 47%;
+            left: 3vh;
+            border: none;
+            font-size: 0.9em;
+            color: $color-black;
+        }
+    
+        .img-arrow {
+            position: absolute;
+            left: 4vh;
+            top: 9.5vh;
+            color: $color-dark-purple;
+        }
+        
+    }
+
+    
+
+    .tracker-order-box-2 {
+        position: absolute;
+        width: 98%;
+        height: 80.9%;     
+        top: 59%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        background: $color-white;
+        //border: black solid 2px;
+
+        .order-taken {
+            position: absolute;
+            font-size: 0.9em;
+            left: 13vh;
+            top: 6vh;
+            
+        }
+
+        .img-right-tracker-1 {
+            position: absolute;
+            top: 5.3vh;
+            left: 45vh;
+            width: 4vh;
+            height: 4vh;
+        }
+
+        .img-paper-pencil {
+            position: absolute;
+            top: 4.1vh;
+            left: 2vh;
+        }
+
+        .img-line-1 {
+            position: absolute;
+            left: 5.5vh;
+            top: 12vh;
+        }
+
+        .img-clipboard {
+            position: absolute;
+            left: 1.7vh;
+            top: 20vh;
+        }
+
+        .img-right-tracker-2{
+            position: absolute;
+            top: 21.9vh;
+            left: 45vh;
+            width: 4vh;
+            height: 4vh;
+        }
+
+        .Order-is-being-1 {
+            position: absolute;
+            font-size: 0.9em;
+            left: 13vh;
+            top: 22vh;
+        }
+
+        .img-line-2 {
+            position: absolute;
+            left: 5.5vh;
+            top: 29vh;
+        }
+
+        .img-bike {
+            position: absolute;
+            top: 35vh;
+            left: 2.5vh;         
+        }
+
+        .img-phone {
+            position: absolute;
+            top: 36vh;
+            left: 44.7vh;
+            width: 5vh;
+            height: 5vh;
+        }
+
+        .Order-is-being-2 {
+            position: absolute;
+            font-size: 0.9em;
+            left: 13vh;
+            top: 37vh;
+        }
+
+        .text-tracker-order {
+            position: absolute;
+            top: 40vh;
+            left: 13.3vh;
+            font-size: 0.7em;
+        }
+
+        .img-line-3 {
+            position: absolute;
+            left: 5.5vh;
+            top: 45vh;
+        }
+
+        .img-map {
+            position: absolute;
+            border-radius: 2px;
+            top: 50vh;
+            left: 3vh;
+            height: 15vh;
+            width: 45vh;
+        }
+
+        .img-line-3 {
+            position: absolute;
+            left: 5.5vh;
+            top: 65vh;
+        }
+        
+        .img-right-tracker-3{
+            position: absolute;
+            top: 71vh;
+            left: 3.5vh;
+            width: 4vh;
+            height: 4vh;
+        }
+
+
+        .order-recived {
+            position: absolute;
+            top: 72vh;
+            font-size: 0.9em;
+            left: 13vh;
+
+        }
+
+        .img-three-point {
+            position: absolute;
+            top: 73vh;
+            left: 43vh;
+        }
+    }
+
+    
+
+}
