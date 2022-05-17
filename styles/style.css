@@ -71,8 +71,8 @@
 .description .text-index h1 {
   color: #27214D;
   left: 3vh;
-  top: 11vh;
-  font-size: 1.2em;
+  top: 15%;
+  font-size: 1.1em;
   position: absolute;
 }
 
@@ -80,8 +80,8 @@
   color: #5D577E;
   font-size: 16px;
   left: 3vh;
-  top: 18vh;
-  font-size: 1.1em;
+  top: 30%;
+  font-size: 1em;
   position: absolute;
 }
 
@@ -90,7 +90,7 @@
   height: 5vh;
   background: #ffa451;
   left: 3vh;
-  top: 30vh;
+  top: 60%;
   font-size: 20px;
   position: absolute;
   color: #ffffff;
@@ -170,7 +170,7 @@ body {
 .form-name-box .form-name #label-name {
   color: #27214D;
   width: 35vh;
-  left: 2vh;
+  left: 8%;
   top: 5vh;
   font-size: 1.1em;
   position: absolute;
@@ -180,8 +180,8 @@ body {
   border: none;
   height: 5vh;
   width: 40vh;
-  left: 1.2vh;
-  top: 16vh;
+  left: 10%;
+  top: 30%;
   font-size: 1em;
   position: absolute;
   background: #F3F1F1;
@@ -207,7 +207,7 @@ body {
   width: 40vh;
   height: 7vh;
   background: #ffa451;
-  left: 1.2vh;
+  left: 5%;
   top: 24vh;
   font-size: 20px;
   position: absolute;
@@ -1024,8 +1024,8 @@ body {
   position: absolute;
   top: 89.5%;
   left: 8%;
-  width: 9%;
-  height: 8%;
+  width: 30px;
+  height: 30px;
 }
 
 .add-basket .add-basket-box-2 .btn-add-basket {
@@ -1227,7 +1227,6 @@ body {
   right: 50%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
-  border: black solid 2px;
 }
 
 .form-address .form-address-box #address-label {
