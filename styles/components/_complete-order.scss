@@ -25,7 +25,7 @@
             color: $color-dark-purple;
             font-size: 1.7em;
             top: 50%;
-            left: 15%;
+            width: 100%;
             text-align: center;
         }
 
@@ -34,8 +34,7 @@
             color: $color-dark-purple;
             font-size: 1em;
             top: 60%;
-            left: 10%;
-            width: 35vh;
+            width: 100%;
             text-align: center;
         }
 
@@ -45,12 +44,12 @@
             width: 15vh;
             height: 6vh;
             top: 75%;
-            left: 32%;
             border-radius: 5px;
             background: $color-orange;
             border: none;
             color: $color-white;
-
+            margin-left: 35.75%;
+            margin-right: 35.75%;
         }
 
         #coninue-shopping {
@@ -60,7 +59,8 @@
             width: 20vh;
             height: 6vh;
             top: 90%;
-            left: 27%;
+            margin-left: 31%;
+            margin-right: 31%;
             border-radius: 5px;
             background: $color-white;
             border: $color-orange solid 1px;

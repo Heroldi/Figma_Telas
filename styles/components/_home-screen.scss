@@ -1,44 +1,47 @@
 @import '../abstract/variables';
 
-.home-screen {
+
+.home-welcome {
     background: $color-white;
     font-family: $font;
+    width: 100%;
+    height: 27%;
 
     .home-screen-details-box {
         position: absolute;
-        width: 90%;
-        height: 29%;     
-        top: 17%;
+        width: 99%;
+        height: 24.5%;
+        top: 12.5%;
         bottom: 50%;
-        left: 49%;
+        left: 49.2%;
         right: 50%;
-        transform: translate(-50%,-50%);
+        transform: translate(-50%, -50%);
         //border: black solid 2px;
 
         .img-menu-home {
             position: absolute;
-            top: 3vh;
+            top: 2vh;
             left: 1.5vh;
         }
 
         .img-menu-basket {
             position: absolute;
-            top: 0.7vh;
-            left: 82%;
+            top: 1vh;
+            left: 84%;
         }
 
         h1 {
             position: absolute;
             font-family: $font;
             font-size: 1em;
-            width: 27vh;
+            width: 75%;
             top: 7vh;
             left: 2vh;
         }
 
-        .search-input{
+        .search-input {
             position: absolute;
-            width: 35vh;
+            width: 80%;
             height: 5vh;
             top: 18vh;
             left: 3vh;
@@ -55,366 +58,258 @@
             width: 2.5vh;
             height: 1.5vh;
             top: 19.7vh;
-            left: 87%;
+            left: 90%;
         }
 
-        
-    }
-
-    .home-screen-food-box-1 {
-        position: absolute;
-        width: 90%;
-        height: 25%;     
-        top: 43%;
-        bottom: 50%;
-        left: 49%;
-        right: 50%;
-        transform: translate(-50%,-50%);
-        //border: black solid 2px;
-
-        h1 {
-            font-family: $font;
-            font-size: 1.4em;
-            position: absolute;
-            left: 1vh;
-            bottom: 22vh;
-        }
-
-        .img-heart-dish-1 {
-            position: absolute;
-            height: 3vh;
-            top: 5vh;
-            left: 14vh;
-        }
-
-        .img-dish-1 {
-            position: absolute;
-            width: 12vh;
-            height: 12vh;
-            top: 7vh;
-            left: 3vh;
-        }
-
-        #dish-1-text{
-            display: block;
-            position: absolute;
-            font-family: $font;
-            white-space: nowrap;
-            top: 21vh;
-            left: 1vh;
-            font-size: 0.8em;
-            text-decoration: none;
-            color: $color-dark-purple;
-            cursor: pointer;
-
-        }
-
-        #dish-1-text:hover{
-            text-decoration: underline;
-        }
-
-        #img-addition-1 {
-            position: absolute;
-            top: 24.7vh;
-            left: 14.5vh;
-        }
-
-        #img-money-simbol-1 { 
-            position: absolute;
-            top: 24.9vh;
-            left: 0.7vh; 
-
-        }
-
-        #value-dish-1 {
-            position: absolute;
-            display: inline;
-            top: 24.7vh;
-            font-size: 1em;
-            left: 4vh;
-            color: $color-orange;
-        }
-
-        .img-heart-dish-2 {
-            position: absolute;
-            height: 3vh;
-            top: 5vh;
-            left: 37.4vh;
-        }
-
-        .img-dish-2 {
-            width: 12vh;
-            height: 12vh;
-            position: absolute;
-            top: 7vh;
-            left: 26.3vh;
-        }
-
-        #dish-2-text{
-            display: block;
-            position: absolute;
-            font-family: $font;
-            white-space: nowrap;
-            top: 21vh;
-            left: 24.3vh;
-            font-size: 0.8em;
-            text-decoration: none;
-            color: $color-dark-purple;
-            cursor: pointer;
-
-        }
-
-        #dish-2-text:hover{
-            text-decoration: underline;
-        }
-
-        #img-addition-2 {
-            position: absolute;
-            top: 24.7vh;
-            left: 38.5vh;
-        }
-
-        #img-money-simbol-2 { 
-            position: absolute;
-            top: 24.9vh;
-            left: 24.3vh; 
-
-        }
-
-        #value-dish-2 {
-            position: absolute;
-            display: inline;
-            top: 24.7vh;
-            font-size: 1em;
-            left: 28.5vh;
-            color: $color-orange;
-        }
 
     }
+}
 
-    .home-screen-food-box-2 {
-        position: absolute;
-        width: 90%;
-        height: 35%;     
-        top: 80%;
-        bottom: 52%;
-        left: 49%;
-        right: 50%;
-        transform: translate(-50%,-50%);
-        //border: black solid 2px;
+
+.home-recomended {
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 90%;
+    padding-bottom: 10%;
+    //border: black solid 2px;
+
+    h1 {
+        padding-top: 1em;
+        font-size: 1.4em;
+        color: $color-dark-purple;
+    }
+    .all-cards {
+        margin-top: 5%;
+        display: flex;
+        justify-content: space-between;
+
+        .card {
+            box-sizing: border-box;
+            display: flex;
+            flex-direction: column;
+            position: relative;
+            border-radius: 10px;
+            border: none;
+            width: 45%;
+            height: 12em;
+
+            .card-show {
+                text-align: center;
+                box-sizing: border-box;
+                width: 100%;
+                height: 90%;
+                justify-content: center;
+                align-items: center;
+                display: flex;
+                flex-direction: column;
+
+                img {
+                    justify-content: center;
+                    align-items: center;
+                    width: 60%;
+                    padding: 5%;
+                }
+
+                h2 {
+                    color: $color-dark-purple;
+                    font-size: 0.9em;
+                    padding: 0 0.5em;
+                }
+            }
+
+            .information {
+                display: flex;
+                
+                .heart {
+                    position: absolute;
+                    right: 0.5em;
+                    top: 0.5em;
+                }
+                .value {
+                    display: flex;
+                    position: absolute;
+                    bottom: 0.5em;
+                    left: 0.5em;
+
+                    .money-simbol {
+                        height: 0.9em;
+                        position: absolute;
+                        left: 0.5em;
+                        bottom: 0.5em;
+                    }
+                    h2 {
+                        position: absolute;
+                        left: 2em;
+                        bottom: 0.5em;
+                        font-size: 0.9em;
+                        color: $color-orange;   
+                    }
+                }
+                .addition {
+                    height: 2em;
+                    position: absolute;
+                    right: 0.5em;
+                    bottom: 0.5em;   
+                }
+            }
+        }
+    }
+}
+
+
+.home-category {
+    .categorys {
+        width: 100%;
+        //border: red solid 2px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
 
         .title-category-1 {
-            position: absolute;
             font-weight: bold;
-           bottom: 28vh;
-            left: 0.2vh;
-            font-size: 1.5em;
+            font-size: 1.2rem;
             color: $color-dark-purple;
             cursor: pointer;
             text-decoration: underline $color-orange 4px;
         }
 
         .title-category-2 {
-            position: absolute;
-            bottom: 28vh;
-            left: 14vh;
-            font-size: 1.3em;
+            font-size: 1.1rem;
             color: #938db5;
             text-decoration: none;
             cursor: pointer;
         }
 
-        .title-category-2:hover{
+        .title-category-2:hover {
             text-decoration: underline;
         }
 
         .title-category-3 {
-            position: absolute;
-            bottom: 28vh;
-            left: 26vh;
-            font-size: 1.3em;
+            font-size: 1.1rem;
             color: #938db5;
             text-decoration: none;
             cursor: pointer;
         }
 
-        .title-category-3:hover{
+        .title-category-3:hover {
             text-decoration: underline;
         }
 
         .title-category-4 {
-            position: absolute;
-            bottom: 28vh;
-            left: 44vh;
-            font-size: 1.3em;
+            font-size: 1.1rem;
             color: #938db5;
             text-decoration: none;
             cursor: pointer;
         }
 
-        .title-category-4:hover{
+        .title-category-4:hover {
             text-decoration: underline;
         }
-
-        .img-heart-dish-3 {
-            position: absolute;
-            height: 3vh;
-            top: 13vh;
-            left: 14vh;
-        }
-
-        .img-dish-3 {
-            position: absolute;
-            width: 12vh;
-            height: 12vh;
-            top: 15vh;
-            left: 3vh;
-        }
-
-        #dish-3-text{
-            position: absolute;
-            font-family: $font;
-            white-space: nowrap;
-            top: 28vh;
-            left: 1vh;
-            font-size: 0.8em;
-            text-decoration: none;
-            color: $color-dark-purple;
-            cursor: pointer;
-
-        }
-
-        #dish-3-text:hover{
-            text-decoration: underline;
-        }
-
-        #img-addition-3 {
-            position: absolute;
-            top: 30.2vh;
-            left: 14.5vh;
-        }
-
-        #img-money-simbol-3 { 
-            position: absolute;
-            top: 31vh;
-            left: 0.7vh; 
-
-        }
-
-        #value-dish-3 {
-            position: absolute;
-            top: 31vh;
-            font-size: 1em;
-            left: 4vh;
-            color: $color-orange;
-        }
-        
-        .img-heart-dish-4 {
-            position: absolute;
-            height: 3vh;
-            top: 13.5vh;
-            left: 30vh;
-        }
-
-        .img-dish-4 {
-            position: absolute;
-            width: 12vh;
-            height: 12vh;
-            top: 15vh;
-            left: 20vh;
-        }
-
-        #dish-4-text{
-            position: absolute;
-            font-family: $font;
-            white-space: nowrap;
-            top: 28vh;
-            left: 20vh;
-            font-size: 0.8em;
-            text-decoration: none;
-            color: $color-dark-purple;
-            cursor: pointer;
-
-        }
-
-        #dish-4-text:hover{
-            text-decoration: underline;
-        }
-
-        #img-addition-4 {
-            position: absolute;
-            top: 30.2vh;
-            left: 33vh;
-        }
-
-        #img-money-simbol-4 { 
-            position: absolute;
-            top: 31vh;
-            left: 20vh; 
-
-        }
-
-        #value-dish-4 {
-            position: absolute;
-            top: 31vh;
-            font-size: 1em;
-            left: 23vh;
-            color: $color-orange;
-        }
-
-        .img-heart-dish-5 {
-            position: absolute;
-            height: 3vh;
-            top: 13vh;
-            left: 49vh;
-        }
-
-        .img-dish-5 {
-            position: absolute;
-            width: 12vh;
-            height: 12vh;
-            top: 15vh;
-            left: 38vh;
-        }
-
-        #dish-5-text{
-            position: absolute;
-            font-family: $font;
-            white-space: nowrap;
-            top: 28vh;
-            left: 39vh;
-            font-size: 0.8em;
-            text-decoration: none;
-            color: $color-dark-purple;
-            cursor: pointer;
-
-        }
-
-        #dish-5-text:hover{
-            text-decoration: underline;
-        }
-
-        #img-addition-5 {
-            position: absolute;
-            top: 30.2vh;
-            left: 49vh;
-        }
-
-
-        #img-money-simbol-5 { 
-            position: absolute;
-            top: 31vh;
-            left: 39vh; 
-
-        }
-
-        #value-dish-5 {
-            position: absolute;
-            top: 30.7vh;
-            font-size: 1em;
-            left: 42.2vh;
-            color: $color-orange;
-        }
-
     }
+}
+
+.home-slider {
+    width: 100%;
+    overflow: scroll;
+    display: flex;
+    position: absolute;    
+
+    .card {
+        display: flex;
+        position: relative;
+        min-width: 37%;
+        margin: 5% 2.5%;
+        flex-direction: column;
+        border-radius: 10px;
+        border: none;
+        height: 12em;
+
+        .card-show {
+            text-align: center;
+            width: 100%;
+            height: 90%;
+            justify-content: center;
+            align-items: center;
+            display: flex;
+            flex-direction: column;
+
+            .heart {
+                position: absolute;
+                display: flex;
+                height: 1em;
+                width: 1em;
+                right: 0.5em;
+                top: 0.5em;
+            }
+            .image {
+                position: relative;
+                width: 100%;
+                height: 60%;
+                align-items: center;    
+                img {
+                    position: absolute;
+                    top: 50%;
+                    left: 50%;
+                    transform: translate(-50%, -50%);
+                    display: flex;
+                    width: 60%;
+                    margin: auto auto;
+                    vertical-align: center;
+                }
+            }
+            h2 {
+                color: $color-dark-purple;
+                display: flex;
+                align-items: baseline;
+                font-size: 0.9em;
+                padding: 0 0.5em;
+            }
+        }
+
+        .information {
+            display: flex;          
+            .value {
+                display: flex;
+                position: absolute;
+                bottom: 0.5em;
+                left: 0.5em;
+                .money-simbol {
+                    height: 0.9em;
+                    position: absolute;
+                    left: 0.2em;
+                    bottom: 0.2em;
+                }
+
+                h2 {
+                    left: 2em;
+                    position: absolute;
+                    bottom: 0.5em;
+                    font-size: 0.9em;
+                    color: $color-orange; 
+                }
+            }
+
+            .addition {
+                position: absolute;
+                height: 2em;
+                right: 0.2em;
+                bottom: 0.5em;
+            }
+        }        
+        &:nth-of-type(1){
+            background-color: $color-dish-1;
+        }
+        &:nth-of-type(2){
+            background-color: $color-dish-2;
+        }
+        &:nth-of-type(3){
+            background-color: $color-dish-3;
+        }
+        &:nth-of-type(4){
+            background-color: $color-dish-4;
+        }
+        &:nth-of-type(5){
+            background-color: $color-dish-5;
+        }  
+    }        
 }

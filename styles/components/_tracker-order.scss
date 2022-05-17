@@ -5,11 +5,8 @@
 
     .tracker-order-box-1 {
         position: absolute;
-        width: 100%;
+        width: 100vw;
         height: 18%;     
-        top: 9%;
-        left: 50%;
-        transform: translate(-50%,-50%);
         background: $color-orange;
         //border: black solid 2px;
 
@@ -28,7 +25,7 @@
             border-radius: 20px;
             width: 13vh;
             height: 5vh;
-            top: 47%;
+            top: 45%;
             left: 3vh;
             border: none;
             font-size: 0.9em;
@@ -52,17 +49,15 @@
         .order-taken {
             position: absolute;
             font-size: 0.9em;
-            left: 13vh;
+            left: 25%;
             top: 6vh;
             
         }
 
         .img-right-tracker-1 {
             position: absolute;
-            top: 5.3vh;
-            left: 45vh;
-            width: 4vh;
-            height: 4vh;
+            top: 6%;
+            left: 87%;
         }
 
         .img-paper-pencil {
@@ -85,16 +80,14 @@
 
         .img-right-tracker-2{
             position: absolute;
-            top: 21.9vh;
-            left: 45vh;
-            width: 4vh;
-            height: 4vh;
+            top: 25%;
+            left: 87%;
         }
 
         .Order-is-being-1 {
             position: absolute;
             font-size: 0.9em;
-            left: 13vh;
+            left: 25%;
             top: 22vh;
         }
 
@@ -107,47 +100,44 @@
         .img-bike {
             position: absolute;
             top: 35vh;
-            left: 2.5vh;         
+            left: 3%;         
         }
 
         .img-phone {
             position: absolute;
-            top: 36vh;
-            left: 44.7vh;
-            width: 5vh;
-            height: 5vh;
+            top: 45%;
+            left: 86%;
         }
 
         .Order-is-being-2 {
             position: absolute;
             font-size: 0.9em;
-            left: 13vh;
+            left: 25%;
             top: 37vh;
         }
 
         .text-tracker-order {
             position: absolute;
             top: 40vh;
-            left: 13.3vh;
+            left: 28%;
             font-size: 0.7em;
         }
 
         .img-line-3 {
             position: absolute;
             left: 5.5vh;
-            top: 45vh;
+            top: 53%;
         }
 
         .img-map {
             position: absolute;
             border-radius: 2px;
-            top: 50vh;
-            left: 3vh;
-            height: 15vh;
-            width: 45vh;
+            top: 48vh;
+            left: 8%;
+            width: 90%;
         }
 
-        .img-line-3 {
+        .img-line-4 {
             position: absolute;
             left: 5.5vh;
             top: 65vh;
@@ -155,16 +145,14 @@
         
         .img-right-tracker-3{
             position: absolute;
-            top: 71vh;
-            left: 3.5vh;
-            width: 4vh;
-            height: 4vh;
+            top: 90%;
+            left: 7%;
         }
 
 
         .order-recived {
             position: absolute;
-            top: 72vh;
+            top: 91.8%;
             font-size: 0.9em;
             left: 13vh;
 
@@ -172,8 +160,8 @@
 
         .img-three-point {
             position: absolute;
-            top: 73vh;
-            left: 43vh;
+            top: 93%;
+            left: 87%;
         }
     }
 

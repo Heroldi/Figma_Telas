@@ -70,7 +70,7 @@
 
 .description .text-index h1 {
   color: #27214D;
-  left: 3vh;
+  left: 4.5%;
   top: 15%;
   font-size: 1.1em;
   position: absolute;
@@ -79,7 +79,7 @@
 .description .text-index p {
   color: #5D577E;
   font-size: 16px;
-  left: 3vh;
+  left: 4.5%;
   top: 30%;
   font-size: 1em;
   position: absolute;
@@ -87,9 +87,9 @@
 
 .description .text-index .buttom-continue {
   width: 38vh;
-  height: 5vh;
+  height: 7vh;
   background: #ffa451;
-  left: 3vh;
+  left: 5.5%;
   top: 60%;
   font-size: 20px;
   position: absolute;
@@ -106,6 +106,8 @@
 
 body {
   font-family: "Lato", sans-serif;
+  height: 100vh;
+  width: 100vw;
 }
 
 .basket-fruit-name-background {
@@ -243,47 +245,49 @@ body {
   right: 50%;
 }
 
-.home-screen {
+.home-welcome {
   background: #ffffff;
   font-family: "Lato", sans-serif;
+  width: 100%;
+  height: 27%;
 }
 
-.home-screen .home-screen-details-box {
+.home-welcome .home-screen-details-box {
   position: absolute;
-  width: 90%;
-  height: 29%;
-  top: 17%;
+  width: 99%;
+  height: 24.5%;
+  top: 12.5%;
   bottom: 50%;
-  left: 49%;
+  left: 49.2%;
   right: 50%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
 }
 
-.home-screen .home-screen-details-box .img-menu-home {
+.home-welcome .home-screen-details-box .img-menu-home {
   position: absolute;
-  top: 3vh;
+  top: 2vh;
   left: 1.5vh;
 }
 
-.home-screen .home-screen-details-box .img-menu-basket {
+.home-welcome .home-screen-details-box .img-menu-basket {
   position: absolute;
-  top: 0.7vh;
-  left: 82%;
+  top: 1vh;
+  left: 84%;
 }
 
-.home-screen .home-screen-details-box h1 {
+.home-welcome .home-screen-details-box h1 {
   position: absolute;
   font-family: "Lato", sans-serif;
   font-size: 1em;
-  width: 27vh;
+  width: 75%;
   top: 7vh;
   left: 2vh;
 }
 
-.home-screen .home-screen-details-box .search-input {
+.home-welcome .home-screen-details-box .search-input {
   position: absolute;
-  width: 35vh;
+  width: 80%;
   height: 5vh;
   top: 18vh;
   left: 3vh;
@@ -291,373 +295,351 @@ body {
   border: none;
 }
 
-.home-screen .home-screen-details-box .search-input .search-input::-webkit-input-placeholder {
+.home-welcome .home-screen-details-box .search-input .search-input::-webkit-input-placeholder {
   color: #86869E;
 }
 
-.home-screen .home-screen-details-box .search-input .search-input:-ms-input-placeholder {
+.home-welcome .home-screen-details-box .search-input .search-input:-ms-input-placeholder {
   color: #86869E;
 }
 
-.home-screen .home-screen-details-box .search-input .search-input::-ms-input-placeholder {
+.home-welcome .home-screen-details-box .search-input .search-input::-ms-input-placeholder {
   color: #86869E;
 }
 
-.home-screen .home-screen-details-box .search-input .search-input::placeholder {
+.home-welcome .home-screen-details-box .search-input .search-input::placeholder {
   color: #86869E;
 }
 
-.home-screen .home-screen-details-box .img-filter-home {
+.home-welcome .home-screen-details-box .img-filter-home {
   position: absolute;
   width: 2.5vh;
   height: 1.5vh;
   top: 19.7vh;
-  left: 87%;
+  left: 90%;
 }
 
-.home-screen .home-screen-food-box-1 {
-  position: absolute;
+.home-recomended {
+  margin-left: 5%;
+  margin-right: 5%;
   width: 90%;
-  height: 25%;
-  top: 43%;
-  bottom: 50%;
-  left: 49%;
-  right: 50%;
-  -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
+  padding-bottom: 10%;
 }
 
-.home-screen .home-screen-food-box-1 h1 {
-  font-family: "Lato", sans-serif;
+.home-recomended h1 {
+  padding-top: 1em;
   font-size: 1.4em;
-  position: absolute;
-  left: 1vh;
-  bottom: 22vh;
-}
-
-.home-screen .home-screen-food-box-1 .img-heart-dish-1 {
-  position: absolute;
-  height: 3vh;
-  top: 5vh;
-  left: 14vh;
-}
-
-.home-screen .home-screen-food-box-1 .img-dish-1 {
-  position: absolute;
-  width: 12vh;
-  height: 12vh;
-  top: 7vh;
-  left: 3vh;
-}
-
-.home-screen .home-screen-food-box-1 #dish-1-text {
-  display: block;
-  position: absolute;
-  font-family: "Lato", sans-serif;
-  white-space: nowrap;
-  top: 21vh;
-  left: 1vh;
-  font-size: 0.8em;
-  text-decoration: none;
   color: #27214D;
-  cursor: pointer;
 }
 
-.home-screen .home-screen-food-box-1 #dish-1-text:hover {
-  text-decoration: underline;
+.home-recomended .all-cards {
+  margin-top: 5%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
-.home-screen .home-screen-food-box-1 #img-addition-1 {
+.home-recomended .all-cards .card {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  position: relative;
+  border-radius: 10px;
+  border: none;
+  width: 45%;
+  height: 12em;
+}
+
+.home-recomended .all-cards .card .card-show {
+  text-align: center;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 100%;
+  height: 90%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.home-recomended .all-cards .card .card-show img {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 60%;
+  padding: 5%;
+}
+
+.home-recomended .all-cards .card .card-show h2 {
+  color: #27214D;
+  font-size: 0.9em;
+  padding: 0 0.5em;
+}
+
+.home-recomended .all-cards .card .information {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.home-recomended .all-cards .card .information .heart {
   position: absolute;
-  top: 24.7vh;
-  left: 14.5vh;
+  right: 0.5em;
+  top: 0.5em;
 }
 
-.home-screen .home-screen-food-box-1 #img-money-simbol-1 {
+.home-recomended .all-cards .card .information .value {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   position: absolute;
-  top: 24.9vh;
-  left: 0.7vh;
+  bottom: 0.5em;
+  left: 0.5em;
 }
 
-.home-screen .home-screen-food-box-1 #value-dish-1 {
+.home-recomended .all-cards .card .information .value .money-simbol {
+  height: 0.9em;
   position: absolute;
-  display: inline;
-  top: 24.7vh;
-  font-size: 1em;
-  left: 4vh;
+  left: 0.5em;
+  bottom: 0.5em;
+}
+
+.home-recomended .all-cards .card .information .value h2 {
+  position: absolute;
+  left: 2em;
+  bottom: 0.5em;
+  font-size: 0.9em;
   color: #ffa451;
 }
 
-.home-screen .home-screen-food-box-1 .img-heart-dish-2 {
+.home-recomended .all-cards .card .information .addition {
+  height: 2em;
   position: absolute;
-  height: 3vh;
-  top: 5vh;
-  left: 37.4vh;
+  right: 0.5em;
+  bottom: 0.5em;
 }
 
-.home-screen .home-screen-food-box-1 .img-dish-2 {
-  width: 12vh;
-  height: 12vh;
-  position: absolute;
-  top: 7vh;
-  left: 26.3vh;
+.home-category .categorys {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
 }
 
-.home-screen .home-screen-food-box-1 #dish-2-text {
-  display: block;
-  position: absolute;
-  font-family: "Lato", sans-serif;
-  white-space: nowrap;
-  top: 21vh;
-  left: 24.3vh;
-  font-size: 0.8em;
-  text-decoration: none;
-  color: #27214D;
-  cursor: pointer;
-}
-
-.home-screen .home-screen-food-box-1 #dish-2-text:hover {
-  text-decoration: underline;
-}
-
-.home-screen .home-screen-food-box-1 #img-addition-2 {
-  position: absolute;
-  top: 24.7vh;
-  left: 38.5vh;
-}
-
-.home-screen .home-screen-food-box-1 #img-money-simbol-2 {
-  position: absolute;
-  top: 24.9vh;
-  left: 24.3vh;
-}
-
-.home-screen .home-screen-food-box-1 #value-dish-2 {
-  position: absolute;
-  display: inline;
-  top: 24.7vh;
-  font-size: 1em;
-  left: 28.5vh;
-  color: #ffa451;
-}
-
-.home-screen .home-screen-food-box-2 {
-  position: absolute;
-  width: 90%;
-  height: 35%;
-  top: 80%;
-  bottom: 52%;
-  left: 49%;
-  right: 50%;
-  -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
-}
-
-.home-screen .home-screen-food-box-2 .title-category-1 {
-  position: absolute;
+.home-category .categorys .title-category-1 {
   font-weight: bold;
-  bottom: 28vh;
-  left: 0.2vh;
-  font-size: 1.5em;
+  font-size: 1.2rem;
   color: #27214D;
   cursor: pointer;
   -webkit-text-decoration: underline #ffa451 4px;
           text-decoration: underline #ffa451 4px;
 }
 
-.home-screen .home-screen-food-box-2 .title-category-2 {
-  position: absolute;
-  bottom: 28vh;
-  left: 14vh;
-  font-size: 1.3em;
+.home-category .categorys .title-category-2 {
+  font-size: 1.1rem;
   color: #938db5;
   text-decoration: none;
   cursor: pointer;
 }
 
-.home-screen .home-screen-food-box-2 .title-category-2:hover {
+.home-category .categorys .title-category-2:hover {
   text-decoration: underline;
 }
 
-.home-screen .home-screen-food-box-2 .title-category-3 {
-  position: absolute;
-  bottom: 28vh;
-  left: 26vh;
-  font-size: 1.3em;
+.home-category .categorys .title-category-3 {
+  font-size: 1.1rem;
   color: #938db5;
   text-decoration: none;
   cursor: pointer;
 }
 
-.home-screen .home-screen-food-box-2 .title-category-3:hover {
+.home-category .categorys .title-category-3:hover {
   text-decoration: underline;
 }
 
-.home-screen .home-screen-food-box-2 .title-category-4 {
-  position: absolute;
-  bottom: 28vh;
-  left: 44vh;
-  font-size: 1.3em;
+.home-category .categorys .title-category-4 {
+  font-size: 1.1rem;
   color: #938db5;
   text-decoration: none;
   cursor: pointer;
 }
 
-.home-screen .home-screen-food-box-2 .title-category-4:hover {
+.home-category .categorys .title-category-4:hover {
   text-decoration: underline;
 }
 
-.home-screen .home-screen-food-box-2 .img-heart-dish-3 {
+.home-slider {
+  width: 100%;
+  overflow: scroll;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   position: absolute;
-  height: 3vh;
-  top: 13vh;
-  left: 14vh;
 }
 
-.home-screen .home-screen-food-box-2 .img-dish-3 {
-  position: absolute;
-  width: 12vh;
-  height: 12vh;
-  top: 15vh;
-  left: 3vh;
+.home-slider .card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  min-width: 37%;
+  margin: 5% 2.5%;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  border-radius: 10px;
+  border: none;
+  height: 12em;
 }
 
-.home-screen .home-screen-food-box-2 #dish-3-text {
+.home-slider .card .card-show {
+  text-align: center;
+  width: 100%;
+  height: 90%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.home-slider .card .card-show .heart {
   position: absolute;
-  font-family: "Lato", sans-serif;
-  white-space: nowrap;
-  top: 28vh;
-  left: 1vh;
-  font-size: 0.8em;
-  text-decoration: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 1em;
+  width: 1em;
+  right: 0.5em;
+  top: 0.5em;
+}
+
+.home-slider .card .card-show .image {
+  position: relative;
+  width: 100%;
+  height: 60%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.home-slider .card .card-show .image img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 60%;
+  margin: auto auto;
+  vertical-align: center;
+}
+
+.home-slider .card .card-show h2 {
   color: #27214D;
-  cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+  font-size: 0.9em;
+  padding: 0 0.5em;
 }
 
-.home-screen .home-screen-food-box-2 #dish-3-text:hover {
-  text-decoration: underline;
+.home-slider .card .information {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
-.home-screen .home-screen-food-box-2 #img-addition-3 {
+.home-slider .card .information .value {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   position: absolute;
-  top: 30.2vh;
-  left: 14.5vh;
+  bottom: 0.5em;
+  left: 0.5em;
 }
 
-.home-screen .home-screen-food-box-2 #img-money-simbol-3 {
+.home-slider .card .information .value .money-simbol {
+  height: 0.9em;
   position: absolute;
-  top: 31vh;
-  left: 0.7vh;
+  left: 0.2em;
+  bottom: 0.2em;
 }
 
-.home-screen .home-screen-food-box-2 #value-dish-3 {
+.home-slider .card .information .value h2 {
+  left: 2em;
   position: absolute;
-  top: 31vh;
-  font-size: 1em;
-  left: 4vh;
+  bottom: 0.5em;
+  font-size: 0.9em;
   color: #ffa451;
 }
 
-.home-screen .home-screen-food-box-2 .img-heart-dish-4 {
+.home-slider .card .information .addition {
   position: absolute;
-  height: 3vh;
-  top: 13.5vh;
-  left: 30vh;
+  height: 2em;
+  right: 0.2em;
+  bottom: 0.5em;
 }
 
-.home-screen .home-screen-food-box-2 .img-dish-4 {
-  position: absolute;
-  width: 12vh;
-  height: 12vh;
-  top: 15vh;
-  left: 20vh;
+.home-slider .card:nth-of-type(1) {
+  background-color: #FFFAEB;
 }
 
-.home-screen .home-screen-food-box-2 #dish-4-text {
-  position: absolute;
-  font-family: "Lato", sans-serif;
-  white-space: nowrap;
-  top: 28vh;
-  left: 20vh;
-  font-size: 0.8em;
-  text-decoration: none;
-  color: #27214D;
-  cursor: pointer;
+.home-slider .card:nth-of-type(2) {
+  background-color: #FEF0F0;
 }
 
-.home-screen .home-screen-food-box-2 #dish-4-text:hover {
-  text-decoration: underline;
+.home-slider .card:nth-of-type(3) {
+  background-color: #F1EFF6;
 }
 
-.home-screen .home-screen-food-box-2 #img-addition-4 {
-  position: absolute;
-  top: 30.2vh;
-  left: 33vh;
+.home-slider .card:nth-of-type(4) {
+  background-color: #E9ECFF;
 }
 
-.home-screen .home-screen-food-box-2 #img-money-simbol-4 {
-  position: absolute;
-  top: 31vh;
-  left: 20vh;
-}
-
-.home-screen .home-screen-food-box-2 #value-dish-4 {
-  position: absolute;
-  top: 31vh;
-  font-size: 1em;
-  left: 23vh;
-  color: #ffa451;
-}
-
-.home-screen .home-screen-food-box-2 .img-heart-dish-5 {
-  position: absolute;
-  height: 3vh;
-  top: 13vh;
-  left: 49vh;
-}
-
-.home-screen .home-screen-food-box-2 .img-dish-5 {
-  position: absolute;
-  width: 12vh;
-  height: 12vh;
-  top: 15vh;
-  left: 38vh;
-}
-
-.home-screen .home-screen-food-box-2 #dish-5-text {
-  position: absolute;
-  font-family: "Lato", sans-serif;
-  white-space: nowrap;
-  top: 28vh;
-  left: 39vh;
-  font-size: 0.8em;
-  text-decoration: none;
-  color: #27214D;
-  cursor: pointer;
-}
-
-.home-screen .home-screen-food-box-2 #dish-5-text:hover {
-  text-decoration: underline;
-}
-
-.home-screen .home-screen-food-box-2 #img-addition-5 {
-  position: absolute;
-  top: 30.2vh;
-  left: 49vh;
-}
-
-.home-screen .home-screen-food-box-2 #img-money-simbol-5 {
-  position: absolute;
-  top: 31vh;
-  left: 39vh;
-}
-
-.home-screen .home-screen-food-box-2 #value-dish-5 {
-  position: absolute;
-  top: 30.7vh;
-  font-size: 1em;
-  left: 42.2vh;
-  color: #ffa451;
+.home-slider .card:nth-of-type(5) {
+  background-color: #F0FAEB;
 }
 
 .complete-order {
@@ -689,7 +671,7 @@ body {
   color: #27214D;
   font-size: 1.7em;
   top: 50%;
-  left: 15%;
+  width: 100%;
   text-align: center;
 }
 
@@ -698,8 +680,7 @@ body {
   color: #27214D;
   font-size: 1em;
   top: 60%;
-  left: 10%;
-  width: 35vh;
+  width: 100%;
   text-align: center;
 }
 
@@ -709,11 +690,12 @@ body {
   width: 15vh;
   height: 6vh;
   top: 75%;
-  left: 32%;
   border-radius: 5px;
   background: #ffa451;
   border: none;
   color: #ffffff;
+  margin-left: 35.75%;
+  margin-right: 35.75%;
 }
 
 .complete-order .complete-order-box #coninue-shopping {
@@ -722,7 +704,8 @@ body {
   width: 20vh;
   height: 6vh;
   top: 90%;
-  left: 27%;
+  margin-left: 31%;
+  margin-right: 31%;
   border-radius: 5px;
   background: #ffffff;
   border: #ffa451 solid 1px;
@@ -735,12 +718,8 @@ body {
 
 .tracker-order .tracker-order-box-1 {
   position: absolute;
-  width: 100%;
+  width: 100vw;
   height: 18%;
-  top: 9%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
   background: #ffa451;
 }
 
@@ -758,7 +737,7 @@ body {
   border-radius: 20px;
   width: 13vh;
   height: 5vh;
-  top: 47%;
+  top: 45%;
   left: 3vh;
   border: none;
   font-size: 0.9em;
@@ -779,16 +758,14 @@ body {
 .tracker-order .tracker-order-box-2 .order-taken {
   position: absolute;
   font-size: 0.9em;
-  left: 13vh;
+  left: 25%;
   top: 6vh;
 }
 
 .tracker-order .tracker-order-box-2 .img-right-tracker-1 {
   position: absolute;
-  top: 5.3vh;
-  left: 45vh;
-  width: 4vh;
-  height: 4vh;
+  top: 6%;
+  left: 87%;
 }
 
 .tracker-order .tracker-order-box-2 .img-paper-pencil {
@@ -811,16 +788,14 @@ body {
 
 .tracker-order .tracker-order-box-2 .img-right-tracker-2 {
   position: absolute;
-  top: 21.9vh;
-  left: 45vh;
-  width: 4vh;
-  height: 4vh;
+  top: 25%;
+  left: 87%;
 }
 
 .tracker-order .tracker-order-box-2 .Order-is-being-1 {
   position: absolute;
   font-size: 0.9em;
-  left: 13vh;
+  left: 25%;
   top: 22vh;
 }
 
@@ -833,47 +808,44 @@ body {
 .tracker-order .tracker-order-box-2 .img-bike {
   position: absolute;
   top: 35vh;
-  left: 2.5vh;
+  left: 3%;
 }
 
 .tracker-order .tracker-order-box-2 .img-phone {
   position: absolute;
-  top: 36vh;
-  left: 44.7vh;
-  width: 5vh;
-  height: 5vh;
+  top: 45%;
+  left: 86%;
 }
 
 .tracker-order .tracker-order-box-2 .Order-is-being-2 {
   position: absolute;
   font-size: 0.9em;
-  left: 13vh;
+  left: 25%;
   top: 37vh;
 }
 
 .tracker-order .tracker-order-box-2 .text-tracker-order {
   position: absolute;
   top: 40vh;
-  left: 13.3vh;
+  left: 28%;
   font-size: 0.7em;
 }
 
 .tracker-order .tracker-order-box-2 .img-line-3 {
   position: absolute;
   left: 5.5vh;
-  top: 45vh;
+  top: 53%;
 }
 
 .tracker-order .tracker-order-box-2 .img-map {
   position: absolute;
   border-radius: 2px;
-  top: 50vh;
-  left: 3vh;
-  height: 15vh;
-  width: 45vh;
+  top: 48vh;
+  left: 8%;
+  width: 90%;
 }
 
-.tracker-order .tracker-order-box-2 .img-line-3 {
+.tracker-order .tracker-order-box-2 .img-line-4 {
   position: absolute;
   left: 5.5vh;
   top: 65vh;
@@ -881,23 +853,21 @@ body {
 
 .tracker-order .tracker-order-box-2 .img-right-tracker-3 {
   position: absolute;
-  top: 71vh;
-  left: 3.5vh;
-  width: 4vh;
-  height: 4vh;
+  top: 90%;
+  left: 7%;
 }
 
 .tracker-order .tracker-order-box-2 .order-recived {
   position: absolute;
-  top: 72vh;
+  top: 91.8%;
   font-size: 0.9em;
   left: 13vh;
 }
 
 .tracker-order .tracker-order-box-2 .img-three-point {
   position: absolute;
-  top: 73vh;
-  left: 43vh;
+  top: 93%;
+  left: 87%;
 }
 
 .add-basket {
@@ -907,7 +877,7 @@ body {
 .add-basket .add-basket-box-1 {
   position: absolute;
   width: 100%;
-  height: 40%;
+  height: 44%;
   top: 15%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
@@ -920,7 +890,7 @@ body {
   border-radius: 20px;
   width: 13vh;
   height: 5vh;
-  top: 20%;
+  top: 25%;
   left: 2vh;
   border: none;
   font-size: 0.9em;
@@ -929,14 +899,14 @@ body {
 
 .add-basket .add-basket-box-1 .img-dish-add-basket {
   position: absolute;
-  top: 25%;
-  left: 30%;
+  top: 38%;
+  left: 22.5%;
 }
 
 .add-basket .add-basket-box-2 {
   position: absolute;
   width: 98.5%;
-  height: 60%;
+  height: 56%;
   top: 65.4%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
@@ -950,7 +920,7 @@ body {
   top: 5%;
   left: 5%;
   color: #27214D;
-  font-size: 1.5em;
+  font-size: 1.7em;
 }
 
 .add-basket .add-basket-box-2 .img-minus {
@@ -997,7 +967,7 @@ body {
   position: absolute;
   top: 38%;
   left: 5%;
-  font-size: 1em;
+  font-size: 1.2em;
   -webkit-text-decoration: underline #ffa451 2px;
           text-decoration: underline #ffa451 2px;
   color: #27214D;
@@ -1007,7 +977,7 @@ body {
   position: absolute;
   top: 48%;
   left: 5%;
-  font-size: 0.9em;
+  font-size: 0.8em;
   color: #27214D;
 }
 
@@ -1016,7 +986,7 @@ body {
   top: 65%;
   left: 5%;
   width: 80%;
-  font-size: 0.8em;
+  font-size: 0.7em;
   color: #27214D;
 }
 
@@ -1080,25 +1050,19 @@ body {
 .order-list .order-list-box-2 .img-dish-1 {
   position: absolute;
   top: 23vh;
-  left: 5vh;
-  width: 10%;
-  height: 6%;
+  left: 5%;
 }
 
 .order-list .order-list-box-2 .img-dish-2 {
   position: absolute;
   top: 38vh;
-  left: 5vh;
-  width: 10%;
-  height: 6%;
+  left: 5%;
 }
 
 .order-list .order-list-box-2 .img-dish-3 {
   position: absolute;
   top: 52.7vh;
-  left: 5vh;
-  width: 10%;
-  height: 6%;
+  left: 2%;
 }
 
 .order-list .order-list-box-2 .img-black-simbol-1 {
@@ -1123,42 +1087,42 @@ body {
   position: absolute;
   top: 23vh;
   left: 15vh;
-  font-size: 0.8em;
+  font-size: 0.9em;
 }
 
 .order-list .order-list-box-2 .dish-2 {
   position: absolute;
   top: 39vh;
   left: 15vh;
-  font-size: 0.8em;
+  font-size: 0.9em;
 }
 
 .order-list .order-list-box-2 .dish-3 {
   position: absolute;
   top: 53.5vh;
   left: 15vh;
-  font-size: 0.8em;
+  font-size: 0.9em;
 }
 
 .order-list .order-list-box-2 .dish-description-1 {
   position: absolute;
   top: 27vh;
   left: 15vh;
-  font-size: 0.7em;
+  font-size: 0.8em;
 }
 
 .order-list .order-list-box-2 .dish-description-2 {
   position: absolute;
   top: 43vh;
   left: 15vh;
-  font-size: 0.7em;
+  font-size: 0.8em;
 }
 
 .order-list .order-list-box-2 .dish-description-3 {
   position: absolute;
   top: 57vh;
   left: 15vh;
-  font-size: 0.7em;
+  font-size: 0.8em;
 }
 
 .order-list .order-list-box-2 .dish-value-1 {
